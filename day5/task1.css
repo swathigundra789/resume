@@ -1,21 +1,69 @@
 .root{
      position: relative;
-
-    
-     
+     border:10px solid black;
+     margin:20%;
+     height:100vh;
+    }
+    .root>img{
+position:absolute;
+ 
 }
-div>h1{
+.child1{
+    width:300px;
+    top:-60px;
+    left:-50px;
+}
+.child2{
+    width:300px;
+    top:-60px;
+    right:-50px;
+}
+.child3{
+    width:300px;
+    bottom:-60px;
+    left:-50px;
+}
+.child4{
+    width:300px;
+    bottom:-60px;
+    right:-50px;
+}
+
+.topleft{
+    color:black;
+    position:absolute;
+    top:-70px;
+    left:-50px;
+    font-size:50px;
+}
+.topright{
+    color:white;
+    position:absolute;
+    top:-50px;
+    right:-30px;
+font-size:50px;
+}
+.bottomleft{
+    color:white;
     position: absolute;
+    bottom:-60px;
+    left:120px;
+    font-size:50px;
 }
-.s{
-    left:0px;
-    top:0px;
+.bottomright{
+    color:white;
+    position:absolute;
+    right:50px;
+    bottom:-60px;
+    font-size:50px;
+}
+.child5{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50% , -50%);
+}
+h1:hover{
+    color:brown;
+}
 
-}
-  .p{
-    right:10px;
-    top:0px;
-    left:px;
-    
-
-}
