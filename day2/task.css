@@ -1,0 +1,348 @@
+
+
+.php{
+    height:300px;
+    text-align: center;
+    width:40%;
+    background-color:palevioletred;
+    border-radius:20px;
+    display: inline-block;
+    margin:70px;
+     
+}
+.query{
+    background-color:rgb(165, 58, 165);
+    height:300px;
+    width:40%;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    margin:70px;
+}
+.java{
+    text-align: center;
+    background-color:cadetblue;
+    height:300px;
+    width:40%;
+    display:inline-block;
+    border-radius:20px;
+    margin:70px;
+
+}
+.c{
+    text-align: center;
+    background-color:lightgreen;
+    height:300px;
+    width:40%;
+    border-radius:20px;
+    display: inline-block;
+    margin:70px;
+}
+.css{
+    text-align: center;
+    background-color:lightslategray;
+    height:300px;
+    width:40%;
+    border-radius:20px;
+    display: inline-block;
+    margin:70px;
+}
+.bootstrap{
+    text-align: center;
+    background-color:rgb(237, 188, 139);
+    height:300px;
+    width:40%;
+    border-radius:20px;
+    display: inline-block;
+    margin:70px;
+}
+.c1{
+    text-align: center;
+    background-color:limegreen;
+    height:150px;
+    width:40%;
+    border-radius:20px;
+    display: inline-block;
+    margin:70px;
+    padding-top:30px;
+    
+    
+}
+.c2{
+    text-align: center;
+    background-color:violet;
+    height:150px;
+    width:40%;
+    border-radius:20px;
+    display: inline-block;
+    margin:70px;
+    padding-top:30px;
+    
+}
+.r{
+    text-align: center;
+    background-color: rgb(25, 165, 119);
+    height:150px;
+    width:20%;
+    border-radius:20px;
+    display: inline-block;
+    margin:25px;
+    padding-top:40px;
+}
+.kotlin{
+    text-align: center;
+    background-color: chocolate;
+    height:150px;
+    width:20%;
+    border-radius:20px;
+    display: inline-block;
+    margin:45px;
+    padding-top:40px;
+}
+.node{
+    text-align: center;
+    background-color:yellowgreen;
+    height:150px;
+    width:20%;
+    border-radius:20px;
+    display: inline-block;
+    margin:30px;
+    padding-top:40px;
+}
+.react{
+    text-align: center;
+    background-color:navy;
+    height:150px;
+    width:20%;
+    border-radius:20px;
+    display: inline-block;
+    margin:40px;
+    padding-top:40px;
+}
+/* /4 */
+.son{
+    text-align: center;
+    background-color:rgb(234, 127, 127);
+    height:150px;
+    width:20%;
+    border-radius:20px;
+    display: inline-block;
+    margin:25px;
+    padding-top:40px;
+    
+}
+.vue{
+    text-align: center;
+    background-color:palevioletred;
+    height:150px;
+    width:20%;
+    border-radius:20px;
+    display: inline-block;
+    margin:45px;
+    padding-top:40px;
+    
+}
+.sql{
+    text-align: center;
+    background-color: lightblue;
+    height:150px;
+    width:20%;
+    border-radius:20px;
+    display: inline-block;
+    margin:30px;
+    padding-top:40px;
+
+}
+.xml{
+    text-align: center;
+    background-color:aqua;
+    height:150px;
+    width:20%;
+    border-radius:20px;
+    display: inline-block;
+    margin:40px;
+    padding-top:40px;
+/* /4 */
+}
+.sass{
+    text-align: center;
+    background-color:purple;
+    height:150px;
+    width:20%;
+    border-radius:20px;
+    display: inline-block;
+    margin:25px;
+    padding-top:40px;
+}
+.icons{
+    text-align: center;
+    background-color:cornflowerblue;
+    height:150px;
+    width:20%;
+    border-radius:20px;
+    display: inline-block;
+    margin:45px;
+    padding-top:40px;
+}
+.rwd{
+    text-align: center;
+    background-color: rgb(202, 117, 12);
+    height:150px;
+    width:20%;
+    border-radius:20px;
+    display: inline-block;
+    margin:30px;
+    padding-top:40px;
+}
+.graph{
+    text-align: center;
+    background-color:burlywood;
+    height:150px;
+    width:20%;
+    border-radius:20px;
+    display: inline-block;
+    margin:40px;
+    padding-top:40px;
+}
+/* /5 */
+.svg{
+    text-align: center;
+    background-color:plum;
+    height:150px;
+    width:20%;
+    border-radius:20px;
+    display: inline-block;
+    margin:25px;
+    padding-top:40px;
+}
+.canvas{
+    text-align: center;
+    background-color:blueviolet;
+    height:150px;
+    width:20%;
+    border-radius:20px;
+    display: inline-block;
+    margin:45px;
+    padding-top:40px;
+}
+.pi{
+    
+    text-align: center;
+    background-color:darkcyan;
+    height:150px;
+    width:20%;
+    border-radius:20px;
+    display: inline-block;
+    margin:30px;
+    padding-top:40px;
+}
+
+.cyber{
+    text-align: center;
+    background-color:azure;
+    height:150px;
+    width:20%;
+    border-radius:20px;
+    display: inline-block;
+    margin:40px;
+    padding-top:40px;
+}
+/* /6 */
+.color{
+    text-align: center;
+    background-color:yellow;
+    height:150px;
+    width:20%;
+    border-radius:20px;
+    display: inline-block;
+    margin:25px;
+    padding-top:40px;
+}
+.git{
+    text-align: center;
+    background-color:grey;
+    height:150px;
+    width:20%;
+    border-radius:20px;
+    display: inline-block;
+    margin:45px;
+    padding-top:40px;
+}
+.mat{
+    text-align: center;
+    background-color:lightsalmon;
+    height:150px;
+    width:20%;
+    border-radius:20px;
+    display: inline-block;
+    margin:30px;
+    padding-top:40px;
+}
+.numpy{
+    text-align: center;
+    background-color:chartreuse;
+    height:150px;
+    width:20%;
+    border-radius:20px;
+    display: inline-block;
+    margin:40px;
+    padding-top:40px;
+}
+.excel{
+    text-align: center;
+    background-color: crimson;
+    height:150px;
+    width:40%;
+    border-radius:20px;
+    display: inline-block;
+    margin:70px;
+    padding-top:30px;
+}
+.dsa{
+    text-align: center;
+    background-color:violet;
+    height:150px;
+    width:40%;
+    border-radius:20px;
+    display: inline-block;
+    margin:70px;
+    padding-top:30px; 
+}
+.ml{
+    text-align: center;
+    background-color:lightseagreen;
+    height:150px;
+    width:40%;
+    border-radius:20px;
+    display: inline-block;
+    margin:70px;
+    padding-top:30px;
+}
+.ai{
+    text-align: center;
+    background-color:lightslategray;
+    height:150px;
+    width:40%;
+    border-radius:20px;
+    display: inline-block;
+    margin:70px;
+    padding-top:30px; 
+}
+
+button{
+    border-radius:10px;
+    color:black;
+    background-color:white;
+    width:90px;
+    height:50px;
+}
+
+a{
+    text-decoration: none;
+}
+body{
+    background-color: bisque;
+}
+p{
+    font-weight: bold;
+}

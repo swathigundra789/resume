@@ -1,0 +1,103 @@
+body{
+    text-align: center;
+    /* background-image:url(https://tse1.mm.bing.net/th?id=OIP.Wcft_8NjI6dHI4-hWdlLQgHaFj&pid=Api&P=0&h=220); */
+    /* background-image:url(https://tse2.mm.bing.net/th?id=OIP.bPRZldg4Dm6Zl4VdjxvmjAHaEK&pid=Api&P=0&h=220); */
+    background-image:url(https://wallpapercave.com/wp/wp6438851.jpg);
+    /* background-image:url(https://wallpapercave.com/wp/wp9190151.jpg); */
+    /* background-image:url(https://tse3.mm.bing.net/th?id=OIP.Jx-BC5lXPU5h6MSx3P6lTwHaEK&pid=Api&P=0&h=220); */
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.shoe{
+    text-align: center;
+    background-color:white;
+    margin:2%;
+    width:15%;
+    padding:1%;
+    border-radius:14%;
+    display:inline-block;
+    }
+    /* img{
+        border-radius:9%;
+    } */
+     .ear{
+        text-align: center;
+    background-color:white;
+    margin:2%;
+    width:15%;
+    padding:1%;
+    border-radius:14%;
+    display:inline-block;
+
+     }
+     .watch{
+        text-align: center;
+        background-color:white;
+        width:15%;
+         padding:1%;
+        margin:2%;
+        border-radius:14%;
+        display:inline-block;
+     }
+     .mobile{
+        text-align: center;
+        background-color:white;
+        width:15%;
+        padding:1%;
+        margin:2%;
+        border-radius:14%;
+        display:inline-block;
+     }
+     .bracelet{
+        text-align: center;
+        background-color:white;
+        width:15%;
+        padding:2%;
+        margin:2%;
+        border-radius:14%;
+        display:inline-block;
+     }
+     .sandal{
+        text-align: center;
+        background-color:white;
+        width:12%;
+        padding:3%;
+        margin:2%;
+        border-radius:14%;
+        display:inline-block;
+     }
+     .windows{
+        text-align: center;
+        background-color:white;
+        width:15%;
+        padding:1%;
+        margin:2%;
+        border-radius:14%;
+        display:inline-block;
+     }
+     .perfume{
+        text-align: center; 
+        background-color:white;
+        width:15%;
+        padding:1%; 
+        margin:2%; 
+        border-radius:14%;
+        display:inline-block;
+     } 
+
+    button{
+        background-color:white;
+        text-align: center;
+        border:3px solid black;
+       border-radius:200%;
+       padding:3%;
+        }
+        a{
+            text-decoration: none;
+            color:black;
+            
+        }
+        h1{
+            color:brown;
+        }
