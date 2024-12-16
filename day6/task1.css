@@ -55,8 +55,8 @@ img{
 .parent{
     border:2px solid black;
   border-radius:10px;
-    height:60vh;
-    width:20%;
+    height:70vh;
+    width:30%;
     margin:auto;
     overflow-y: scroll;
     scrollbar-width:none;
