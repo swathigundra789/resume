@@ -1,0 +1,125 @@
+img{
+    height:3rem;
+     width: 3rem;
+     border-radius: 100%;
+     margin:5px;
+     /* display: flex; */
+     display: inline-block;
+}
+ .subchild{
+    position: absolute;
+    top:0px;
+     left:60px; 
+     font-style: oblique;
+} 
+.child1{
+    /* position: fixed; */
+    top:0px;
+    border:2px solid black;
+    position: sticky;
+    z-index: 3;
+    background-color: rgb(41, 180, 41);
+    color: white;
+    width:100%;
+    
+    
+    /* hei3ht: 30px;
+    width: 100%;
+    padding: 10x;
+    z-index:3;
+    position: sticky;
+    bottom:0; */
+
+}
+.video{
+   position: absolute;
+   top:-8px;
+   right:50px;
+   font-size:30px;
+}
+.audio{
+    position: absolute;
+    top:-8px;
+    right:110px;
+    font-size:30px;
+}
+.dot{
+    position: absolute;
+    top:-8px;
+    right:20px;
+    font-size:30px;
+}
+
+
+
+.parent{
+    border:2px solid black;
+  border-radius:10px;
+    height:60vh;
+    width:20%;
+    margin:auto;
+    overflow-y: scroll;
+    scrollbar-width:none;
+    position: relative;
+    /* background-image:url(https://tse2.mm.bing.net/th?id=OIP.B0Amuad1WThY3fp5wRLWBQHaEK&pid=Api&P=0&h=220); */
+  background-image: url(https://images.hdqwalls.com/wallpapers/sunlight-circle-light-color-rays-rainbow-db.jpg);
+    /* position: relative; */
+    
+}
+.date1{
+    text-align: center;
+    position:sticky;
+    top: 70px;
+    
+}
+.date{
+    background-color:black;
+    color:white;
+    
+}
+.left{
+    text-align: right;
+    
+}
+span{
+    background-color: bisque;
+    font-size:19px;
+    border-radius:20px;
+    padding:9px;
+}
+
+    
+    
+
+#id{
+    background-color:green;
+    color: white;
+    position: absolute ;
+    
+    
+    
+}
+h1{
+    display: inline-block;
+}
+
+.nav{
+    background-color: darkgreen;
+    height:40px ;
+    width: 100%;
+}
+.msg{
+    background-color:rgb(33, 182, 33);
+    color: white;
+    font-size:20px;
+    height: 40px;
+    width:100%;
+    padding: 10x;
+    z-index:3;
+    position: sticky;
+    bottom:0%;
+    
+
+}
+
+
