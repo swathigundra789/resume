@@ -1,0 +1,26 @@
+.e{
+    border:6px solid red;
+    text-align: center;   
+    padding:50px; 
+    font-size: 40px; 
+}
+.d{
+    border:6px solid blue; 
+}
+.c{
+    border:6px solid rgb(44, 212, 44);
+}
+.b{
+    border:6px solid grey; 
+
+}
+.a{
+    border:6px solid purple;
+}
+.parent{
+    display: flex;
+    
+    width:10%;
+    
+    
+} 
