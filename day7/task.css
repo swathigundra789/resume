@@ -1,13 +1,15 @@
 .nav{
      background-color: antiquewhite;
     height:10vh;
-    position: relative;
-     top:0%;
+    position:fixed;
+    width: 100%;
+     top:0;
+     z-index: 3;
      
      
 }
 .nav1{
-    position: fixed;
+    position: sticky;
     font-size:30px;
     top:29px;
     z-index: 10;
@@ -95,6 +97,13 @@ p{
 }
 #img{
     margin:30px;
+}
+.nav,.nav2,.nav3{
+    border:1px solid black;
+    /* width: 100%; */
+    background-color:lightgrey;
+
+
 }
 
 
