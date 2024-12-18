@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    border:3px solid bisque;
+    justify-content: right; 
+    justify-content: space-between; 
+}
+.child1{
+    display: flex;
+}
+.section{
+    font-family: cursive; 
+}

@@ -1,0 +1,242 @@
+.container{
+    box-shadow:5px 5px 5px 30px lightpink inset ;
+    width:70%;
+     height:1vh; 
+    font-size:40px;
+    text-align: center;
+    padding:5%;
+    font-family: fantasy;
+    border:5px solid black;
+    margin-bottom:8%;
+    
+    
+}
+.parent>div{
+    border:1px solid white;
+    width:20%;
+    height:30vh;
+    margin:50px;
+    /* justify-content: center; */
+    padding-top: 100px;
+    box-sizing: border-box;
+    font-size:50px;
+    display: inline-block;
+    border-radius:20px;
+    text-align: center;
+}
+.child1{
+    background-color: gray;
+    display: flex;
+    /* align-items: center; */
+    height: 30vh;
+    padding-top: 100px;
+    box-shadow: 1px 1px 15px 6px black ;
+}
+.child2{
+    background-color: rgb(232, 136, 152);
+    box-shadow: 1px 1px 15px 6px black;
+}
+.child3{
+    background-color: blanchedalmond;
+    box-shadow: 1px 1px 15px 6px black;
+}
+.child4{
+    background-color:brown;
+    box-shadow: 1px 1px 15px 6px black;
+}
+.child5{  
+    background-color:violet;
+    box-shadow: 1px 1px 15px 6px black;
+}
+.child6{
+    background-color: gold;
+    box-shadow: 1px 1px 15px 6px black;
+}
+.child7{
+    background-color: green;
+    box-shadow: 1px 1px 15px 6px black;
+}
+.child8{
+    background-color: yellow;
+    box-shadow: 1px 1px 15px 6px black;
+}
+.child9{
+    background-color:purple;
+    box-shadow: 1px 1px 15px 6px black;
+}
+.child10{
+    background-color: peru;
+    box-shadow: 1px 1px 15px 6px black;
+}
+.child11{
+    background-color: powderblue;
+    box-shadow: 1px 1px 15px 6px black;
+}
+.child12{
+    background-color: blue;
+    box-shadow: 1px 1px 15px 6px black;
+}
+.child13{
+    background-color: bisque;
+    box-shadow: 1px 1px 15px 6px black;
+}
+.child14{
+    background-color: wheat;
+    box-shadow: 1px 1px 15px 6px black;
+}
+.child15{
+    background-color: greenyellow;
+    box-shadow: 1px 1px 15px 6px black;
+}
+.child16{
+    background-color:lightgreen;
+    box-shadow: 1px 1px 15px 6px black;
+}
+.child17{
+    background-color:lightseagreen;
+    box-shadow: 1px 1px 15px 6px black;
+}
+.child18{
+    background-color: lightslategray;
+    box-shadow: 1px 1px 15px 6px black;
+}
+.child19{
+    background-color: lightskyblue;
+    box-shadow: 1px 1px 15px 6px black;
+}
+.child20{
+    background-color:lightpink;
+    box-shadow: 1px 1px 15px 6px black;
+}
+.child1:hover{
+    box-shadow:1px 1px 1px 1px gray inset;
+     font-weight: bolder;
+     transform: scale(1.1);
+     transition: 2s;
+}
+.child2:hover{
+    font-family: "Lato", serif;
+    font-weight: 100;
+    font-style: normal;
+    font-weight: bolder;
+    transform:scale(1.1);
+    transition: 2s;
+}
+.child3:hover{
+    font-family: "Lato", serif;
+  font-weight: 100;
+  font-style: normal;
+  transform:scale(1.1);
+  transition: 2s;
+  font-size: 50px;
+}
+.child4:hover{
+    font-family: "Lato", serif;
+  font-weight: 100;
+  font-style: normal;
+  transform:scale(1.1);
+  transition: 2s;
+}
+.child5:hover{
+    font-family: "Lato", serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 50px;
+  transform:scale(1.1);
+  transition: 2s;
+}
+.child6:hover{
+    font-family: "Lato", serif;
+  font-weight: 100;
+  font-style: normal;
+  transform:scale(1.1);
+  transition: 2s;
+}
+.child7:hover{
+    font-family: "Lato", serif;
+    font-weight: 100;
+    font-style: normal;
+ transform:scale(1.1);
+    transition: 2s;
+}
+.child8:hover{
+    font-family: "Lato", serif;
+  font-weight: 100;
+  font-style: normal;
+  transform:scale(1.1);
+    transition: 2s;
+}
+.child9:hover{
+    font-family: "Lato", serif;
+    font-weight: 100;
+    font-style: normal;
+    transform:scale(1.1);
+    transition: 2s;
+}
+.child10:hover{
+    font-family: "Lato", serif;
+  font-weight: 100;
+  font-style: normal;
+    transform:scale(1.1);
+    transition: 2s;
+}
+.child11:hover{
+    font-family: "Lato", serif;
+  font-weight: 100;
+  font-style: normal;
+    transform:scale(1.1);
+    transition: 2s;
+}
+.child12:hover{
+    font-family: "Lato", serif;
+  font-weight: 100;
+  font-style: normal;
+    transform:scale(1.1);
+    transition: 2s;
+    
+}
+.child13:hover{
+
+    transform:scale(1.1);
+    transition: 2s;
+    /* doesnt found font  */
+}
+.child14:hover{
+
+    transform:scale(1.1);
+    transition: 2s;
+}
+.child15:hover{
+
+    transform:scale(1.1);
+    transition: 2s;
+}
+.child16:hover{
+
+    transform:scale(1.1);
+    transition: 2s;
+}
+.child17:hover{
+
+    transform:scale(1.1);
+    transition: 2s;
+}
+.child18:hover{
+
+    transform:scale(1.1);
+    transition: 2s;
+}
+.child19:hover{
+
+    transform:scale(1.1);
+    transition: 2s;
+}
+.child20:hover{
+
+    transform:scale(1.1);
+    transition: 2s;
+}
+
+
+
+
