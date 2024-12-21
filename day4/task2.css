@@ -1,13 +1,18 @@
 .p{
     
     color: white;
-    border:3px dotted black;
-    background-color: black;
-    padding:20px;
+    border:1px solid white;
+    background-color: rgb(30, 211, 30);
+    /* padding:1px; */
     text-align: center;
+    position: fixed;
+    width:100%;
+    top:0%;
+    
     
     
 }
+
     a:link{
 color:black;
 
@@ -34,6 +39,8 @@ a:active{
     border-radius:20px;
     display: inline-block;
     margin:70px;
+    margin-top:300px;
+  
      
 }
 .query{

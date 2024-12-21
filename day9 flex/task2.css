@@ -131,108 +131,130 @@
   font-size: 50px;
 }
 .child4:hover{
-    font-family: "Lato", serif;
-  font-weight: 100;
-  font-style: normal;
+    font-family: "Danfo", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "ELSH" 0;
   transform:scale(1.1);
   transition: 2s;
 }
 .child5:hover{
-    font-family: "Lato", serif;
-  font-weight: 100;
-  font-style: normal;
+    
   font-size: 50px;
   transform:scale(1.1);
+  font-family: "Great Vibes", serif;
+  font-weight: 400;
+  font-style: normal;
   transition: 2s;
 }
 .child6:hover{
-    font-family: "Lato", serif;
-  font-weight: 100;
+    font-family: "Playball", serif;
+  font-weight: 400;
   font-style: normal;
   transform:scale(1.1);
   transition: 2s;
 }
 .child7:hover{
-    font-family: "Lato", serif;
-    font-weight: 100;
-    font-style: normal;
+    font-family: "Lobster", serif;
+  font-weight: 400;
+  font-style: normal;
  transform:scale(1.1);
     transition: 2s;
 }
 .child8:hover{
-    font-family: "Lato", serif;
-  font-weight: 100;
+    font-family: "Rowdies", serif;
+  font-weight: 300;
   font-style: normal;
   transform:scale(1.1);
     transition: 2s;
 }
 .child9:hover{
-    font-family: "Lato", serif;
-    font-weight: 100;
-    font-style: normal;
+    font-family: "Pacifico", serif;
+  font-weight: 400;
+  font-style: normal;
     transform:scale(1.1);
     transition: 2s;
 }
 .child10:hover{
-    font-family: "Lato", serif;
-  font-weight: 100;
+    font-family: "Micro 5", serif;
+  font-weight: 400;
   font-style: normal;
     transform:scale(1.1);
     transition: 2s;
 }
 .child11:hover{
-    font-family: "Lato", serif;
-  font-weight: 100;
+    font-family: "Jacquard 12", serif;
+  font-weight: 400;
   font-style: normal;
+
     transform:scale(1.1);
     transition: 2s;
 }
 .child12:hover{
-    font-family: "Lato", serif;
-  font-weight: 100;
-  font-style: normal;
+    font-family: "Shadows Into Light", serif;
+    font-weight: 400;
+    font-style: normal;
     transform:scale(1.1);
     transition: 2s;
     
 }
 .child13:hover{
-
+    font-family: "Tiny5", serif;
+    font-weight: 400;
+    font-style: normal;
     transform:scale(1.1);
     transition: 2s;
     /* doesnt found font  */
 }
 .child14:hover{
-
+    font-family: "Permanent Marker", serif;
+    font-weight: 400;
+    font-style: normal;
     transform:scale(1.1);
     transition: 2s;
 }
 .child15:hover{
-
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
     transform:scale(1.1);
     transition: 2s;
 }
 .child16:hover{
-
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
     transform:scale(1.1);
     transition: 2s;
 }
 .child17:hover{
-
+    font-family: "Playwrite CU", serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style:normal;
     transform:scale(1.1);
-    transition: 2s;
+    transition:2s;
 }
 .child18:hover{
-
+    font-family: "Jersey 10", serif;
+    font-weight: 400;
+    font-style: normal;
     transform:scale(1.1);
     transition: 2s;
 }
 .child19:hover{
-
+    font-family: "Babylonica", serif;
+    font-weight: 400;
+    font-style:oblique;
     transform:scale(1.1);
     transition: 2s;
 }
 .child20:hover{
-
+    font-family: "Italianno", serif;
+    font-weight: 400;
+    font-style: italic;
     transform:scale(1.1);
     transition: 2s;
 }
