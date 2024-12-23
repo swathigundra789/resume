@@ -1,0 +1,129 @@
+.container{
+    display: flex;
+    border:1px solid red;
+    
+}
+
+.parent1{
+    display: grid;
+    border:1px solid black;
+    
+    padding:30px;
+    grid-template-areas: 
+    "header"
+    "menu"
+    "hero"
+    "main"
+    "banner"
+    "extra"
+    "image"   ;
+}
+.parent1>div{
+    border:1px solid black;
+    /* width:80px;
+    height:50px; */
+    text-align: center;
+    padding:20px;
+}
+.child1{
+    grid-area: header;
+}
+.child2{
+    grid-area: menu;
+}
+.child3{
+    grid-area: hero;
+}
+.child4{
+    grid-area: main;
+}
+.child5{
+    grid-area: banner;
+}
+.child6{
+    grid-area: extra;
+}
+.child7{
+    grid-area: image;
+}
+
+.parent2{
+    display: grid;
+    border:1px solid black;
+    padding:30px;
+    grid-template-areas: 
+    "header header header"
+    "hero hero hero"
+     "hero hero hero"
+    "menu main main"
+     "menu main main"
+    "menu banner banner"
+    "menu extra image"   ;
+}
+.parent2>div{
+    border:1px solid black;
+    text-align: center;
+    padding:30px;
+       
+}
+.child8{
+    grid-area:header ;
+}
+.child9{
+    grid-area: hero;
+}
+.child10{
+    grid-area: menu;
+}
+.child11{
+    grid-area: main;
+}
+.child12{
+    grid-area: banner;
+}
+.child13{
+    grid-area: extra;
+}
+.child14{
+    grid-area: image;
+}
+
+.parent3{
+    display: grid;
+    padding:30px;
+    border:1px solid black;
+    grid-template-areas: 
+    "header menu menu menu"
+    "hero hero hero hero"
+    "hero hero hero hero"
+    "main main . image"
+    "main main .  extra"
+    "banner banner banner banner"
+    ;
+}
+.parent3>div{
+    border:1px solid black;
+    text-align: center;
+    padding:30px;
+}
+.childa{
+    grid-area:header;
+}
+.childb{
+    grid-area: menu;
+}
+.childc{
+    grid-area: hero;
+}
+.childd{
+    grid-area: main;
+}
+.childe{
+    grid-area: image;
+}
+.childf{
+    grid-area: extra;
+}
+.childg{
+    grid-area: banner;
+}
