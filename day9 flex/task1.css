@@ -39,7 +39,11 @@ img{
     height: auto; */
     padding:15px;
     width:50%;
-}
+     animation: bounce;
+    animation-duration: 2s;
+   
+} 
+
 .b{
     padding: 5px;
     background-color: blueviolet;
