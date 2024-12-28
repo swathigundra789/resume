@@ -67,3 +67,8 @@ b{
     font-style: initial;
 } */
  
+@media screen and (width<576px){
+    .nav1{
+        font-size:10px;
+    } 
+}

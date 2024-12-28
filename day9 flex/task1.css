@@ -53,3 +53,8 @@ img{
 h1{
     font-size:70px;
 }
+@media screen and (width<576px){
+    .section1{
+      flex-direction: column;
+    }
+}

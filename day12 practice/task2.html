@@ -5,54 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-.parent{
-    display:grid;
-    grid-template-columns: auto auto auto;
-    grid-template-areas:
-    "1 1 1 2"
-    "1 4 3"
-    
-    ;
-}
-.parent>div{
-    border:1px solid black;
-}
-.child1{
-    grid-area: 1;
-}
-.child2{
-    grid-area: 2;
-}
-.child3{
-    grid-area: 3;
-}
-.child4{
-    grid-area: 4;
-}
-.child5{
-    grid-area: 5;
-}
-.child6{
-    grid-area: 6;
-}
-.child7{
-    grid-area: 7;
-}
-.child8{
-    grid-area: 8;
-}
+        body{
+            padding:30px;
+            margin:50px;
+            
+        }
+        .parent{
+            display: grid;
+            grid-template-areas: 
+            "head nav nav sec "
+            "head mai art asi "
+            "head sec1 foot asi "
+            ;
+            
+        }
+       .parent>div{
+            border:3px solid black;
+            padding:20px;
+            text-align: center;
+            font-size:30px;
+            color:white;
+        }
+        .child1{
+            grid-area:head;
+           background-color: green;
+           color: white;
+           
+        
+        }
+        .child2{
+            grid-area: nav;
+            background-color: red;
+            color:white;
+        }
+        .child3{
+            grid-area:sec;
+            background-color: green;
+        }
+        .child4{
+            grid-area: mai;
+            background-color: yellow;
+        }
+        .child5{
+            grid-area: art;
+            background-color: orange;
+        }
+        .child6{
+            grid-area: asi;
+            background-color: red;
+        }
+        .child7{
+            grid-area:sec1;
+            background-color: orange;
+        }
+        .child8{
+            grid-area: foot;
+            background-color: yellowgreen;
+        }
     </style>
 </head>
 <body>
     <div class="parent">
-    <div class="child1">1</div>
-    <div class="child2">2</div>
-    <div class="chil3">3</div>
-    <div class="child4">4</div>
-    <div class="child5">5</div>
-    <div class="child6">6</div>
-    <div class="child7">7</div>
-    <div class="child8">8</div>
+    <div class="child1">header</div>
+    <div class="child2">navbar</div>
+   <div class="child3">section</div>
+   <div class="child4">main</div>
+   <div class="child5">article</div>
+   <div class="child6">aside</div>
+   <div class="child7">section1</div>
+   <div class="child8">footer</div>
     </div>
 </body>
 </html>
