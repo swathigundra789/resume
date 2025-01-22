@@ -8,41 +8,59 @@
         div{
             border:1px solid black;
             width:50%;
+            height:50vh;
+            text-align: center;
+            margin: auto;
+            background-color: rgba(0,0, 0, 0.3);
         }
+       img{
+        border-radius: 100%;
+        height: 300px;
+        width: 300px;
+        box-shadow: 2px 2px 10px 10px black;
+       }
+
+
        div> button{
-        padding:1%;
+        padding:3%;
        margin:3%;
-       font-size:100%; 
+       font-size: 1.5rem;
+       /* font-size:100%;  */
       }
       
       .a:hover~img{ 
         transform: translate(100px);
-        transition: all 1s;
+        transition: all 3s;
       }
       img:hover{
         transform: translate(100px);
+        transition: all 5s;
       }
       .b:hover~img{
-        transform: rotate(500deg);
+        transform: rotate(360deg);
+        transition: all 5s;
       }
       .c:hover~img{
         transform: scale(0.5);
+        transition: all 5s;
       }
       .d:hover~img{
         transform: skew(200deg);
+        transition: all 2s;
       }
 
     </style>
 </head>
 <body>
-    <div>
+  <h1 style="text-align: center;margin-bottom: 5%;margin-top: 5%;">TRANSFORM PROPERTIES</h1>
+    <div >
          <button class="a">translate</button> 
         <button class="b">rotate</button>
         <button class="c">scale</button>
         <button class="d">skew</button>
 
 <br><br>
-        <img src="https://tse4.mm.bing.net/th?id=OIP.Tbl2uFeNce50cQ5IrQHcNQHaFj&pid=Api&P=0&h=220" width="50%">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.Tbl2uFeNce50cQ5IrQHcNQHaFj&pid=Api&P=0&h=220" style="text-align: center;" width="50%">
     </div> 
 
       
