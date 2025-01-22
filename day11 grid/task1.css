@@ -1,7 +1,7 @@
 .section1{
     display: flex;
     justify-content: space-around;
-    position: fixed;
+    position: fixed; 
     width:100%;
     border:1px solid white;
     background-color: white;
@@ -26,8 +26,8 @@ p{
     display: grid;
     grid-template-columns: repeat(4,auto);
     padding:150px;
-    margin:30px;
-    grid-column-gap:30px;
+    margin:30px; 
+    grid-column-gap:30px; 
     grid-row-gap:70px;
 }
 .section3{
@@ -88,4 +88,11 @@ p{
     overflow: scroll;
     scrollbar-width:none ;
 }
- 
+
+
+ @media only screen and(max-width:576px){
+    .section2{
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+    }
+ }
