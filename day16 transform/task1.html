@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border:1px solid black;
+            width:50%;
+        }
+       div> button{
+        padding:1%;
+       margin:3%;
+       font-size:100%; 
+      }
+      
+      .a:hover~img{ 
+        transform: translate(100px);
+        transition: all 1s;
+      }
+      img:hover{
+        transform: translate(100px);
+      }
+      .b:hover~img{
+        transform: rotate(500deg);
+      }
+      .c:hover~img{
+        transform: scale(0.5);
+      }
+      .d:hover~img{
+        transform: skew(200deg);
+      }
+
+    </style>
+</head>
+<body>
+    <div>
+         <button class="a">translate</button> 
+        <button class="b">rotate</button>
+        <button class="c">scale</button>
+        <button class="d">skew</button>
+
+<br><br>
+        <img src="https://tse4.mm.bing.net/th?id=OIP.Tbl2uFeNce50cQ5IrQHcNQHaFj&pid=Api&P=0&h=220" width="50%">
+    </div> 
+
+      
+</body>
+</html>

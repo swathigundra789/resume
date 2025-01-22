@@ -15,7 +15,7 @@
       padding:50px;
         }
         .container{
-           display: flex;
+           /* display: flex; */
             border:3px solid black;
             width:50%;
             height:30%;
@@ -36,7 +36,7 @@
            
         }
         .container1{
-            display: flex;
+            /* display: flex; */
             border:3px solid black;
             width:50%;
             height:30%;
@@ -45,7 +45,7 @@
             scrollbar-width: none;
         }
         .container2{
-            display: flex;
+            /* display: flex; */
             border:3px solid black;
             width:50%;
             height:30%;
@@ -54,7 +54,7 @@
             scrollbar-width: none;
         }
         .container3{
-            display: flex;
+            /* display: flex; */
             border:3px solid black;
             width:50%;
             height:30%;
@@ -63,17 +63,17 @@
             scrollbar-width: none;
         }
         .parent{
-            display: flex;
+             display: flex;  
             margin:30px;
             padding:30px;
             gap:20px;
         }
-        .parent1{
-            display: flex;
-            margin:30px;
-            padding:30px;
-            gap:20px;
-        }
+        /* .parent1{
+            /* display: flex; */
+            /* margin:30px; */
+            /* padding:30px; */
+            /* gap:20px; */
+        /* } */ 
         @media screen and (width<576px){
          h1,p{
             font-size:20px;
@@ -91,18 +91,73 @@
             h1,p{
                 font-size:60px;
             } 
-            
+             
         }
-         @media screen and (width<600px){
-            .parent{
-                flex-direction: column;
+        
+        
+        @media only screen and (max-width:576px){
+            .container{
+                background-color: lightcoral;
             }
-            .parent1{
-                flex-direction: column;
-                
+            .container>p{
+                font-size:10px;
+            }
+        }
+        @media only screen and (min-width:576px) and (max-width:986px){
+            .container1{
+                background-color: lightseagreen;
+            }
+            .container1>p{
+                font-size:15px;
+            }
+
+        }
+        @media only screen and (min-width:986px) and (max-width:1200px){
+            .container2{
+                background-color: lightslategrey;
+            }
+            .container2>p{
+                font-size: 20px;
+            }
+        }
+        @media only screen and (max-width:576px){
+          .parent{
+            flex-direction: column;
+            background-color: lightcoral;
+          } 
+          div>p{
+            font-size:10px; 
+          }
+
+        }  
+        @media only screen and (min-width:576px) and (max-width:768px){
+            .parent{
+                flex-direction:(2,column) ;
+                background-color: lightgreen;
+            }
+            div>p{
+                font-size:15px; 
             }
         } 
-        
+        @media only screen and (min-width:768px) and (max-width:1000px){
+            .parent{
+                flex-direction: column column column;
+                background-color: lightslategray;
+            }
+            div>p{
+                font-size:18px;
+            }
+        }  
+        @media only screen and (min-width:1000px) and (max-width:1200px){
+            .parent{
+                flex-direction: column column column column;
+                background-color: lightskyblue;
+            }
+            div>p{
+                font-size:22px;
+            }
+        }   
+           
     </style>
 </head>
 <body>
@@ -127,8 +182,8 @@
         <img src="https://tse3.mm.bing.net/th?id=OIF.aNbU83vXr%2f8dyk0LurWTaA&pid=Api&P=0&h=220">
      </div>
     </div>
-    </div>
-    <div class="parent1">
+    
+   
     <div class="container2  animate__animated animate__wobble  ">
 <div>
     <h1>SHREYAS IYER</h1>
@@ -144,9 +199,8 @@
     <p>Mohammed Siraj (Hindi: [sɪɾaːdʒ]; born 13 March 1994) is an Indian international cricketer who plays as a right-arm fast bowler for the Indian national team. He also plays for Gujarat Titans in the Indian Premier League and Hyderabad in domestic cricket. He was a part of the Indian squad which won the 2023 Asia Cup, where he was the Player of the Match in the final against Sri Lanka. He was a member of the Indian team that won the 2024 T20 World Cup. He is also a DSP (Deputy Superintendent of Police) in Hyderabad appointed on 11 October 2024 at Telangana DGP (Director General of Police) office.[3][4] This came in effect after Telangana CM Revanth Reddy's announcement.</p>
   </div>
   <div><img src="https://tse2.mm.bing.net/th?id=OIF.qWxzfgj972ZYhjpCivSsDw&pid=Api&P=0&h=220"></div>
- </div>
-
-
+ 
+</div>
 </div>
 </body>
 </html>

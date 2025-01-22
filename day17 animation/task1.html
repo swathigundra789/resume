@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:whitesmoke;
+        }
+        .bg{
+            height: 98vh;
+            width: 90vw;
+            margin: auto;
+
+        }
+     
+        .big1,.big2,.big3{
+            height: 75px;
+            width: 75px;
+            margin: 20px;
+            display: inline-block;
+            background-color:brown;
+            border-radius: 50%;
+            position: relative;
+            left: 325px;
+            animation: big 2s infinite;
+        }
+        .big1{
+            animation-delay: 0.3s;
+        }
+        .big2{
+            animation-delay: 0.5s;
+        }
+
+        .big3{
+            animation-delay: 0.7s;
+        }
+
+        .small1,.small2,.small3{
+            height: 20px; 
+            width: 20px;
+            margin: 5px;
+            display: inline-block;
+            border-radius: 50%;
+            position: relative;
+            top: 350px;
+            left: 450px;
+           
+            animation: small 1s infinite;
+        }
+        .small1{
+            animation-delay: 0.6s;
+
+
+        }
+        .small2{
+            animation-delay: 0.8s;
+        }
+        .smaall3{
+            animation-delay: 1s;
+        }
+
+        @keyframes big {
+            0%{
+                top: 0px;
+            }
+            50% {
+                top: 300px;
+            }
+            100% {
+                 top: 0px;
+            }
+        }
+        
+        @keyframes small {
+            0%{
+                background-color: lightgreen;
+                transform: scale(1);
+            }
+            50%{
+            /* transform: scale(1.5); */
+            background-color: green;
+            transform: scale(1);
+            }
+            100%{
+            /* transform: scale(1); */
+            background-color: lightgreen;
+            transform:scale(1);
+            }
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="bg">
+
+    <div class="big">
+        <div class="big1"></div>
+        <div class="big2"></div>
+        <div class="big3"></div>
+    </div>
+    <br>
+    <div class="small">
+        <div class="small1"></div>
+        <div class="small2"></div>
+        <div class="small3"></div>
+    </div>
+
+    </div>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            border:3px solid black;
+            width:100%;
+            height: 80vh;
+        }
+        div{
+            width:10%;
+            height: 15vh;
+            border-radius: 50%; 
+            border:1px solid black;
+            text-align: center;
+           position: relative; 
+           background-color:rgb(225, 68, 94);
+           color:white;
+           font-size: 2rem;
+           /* padding:10px; */
+           /* animation-name: upward;
+           animation-duration: 4s;
+              animation-iteration-count: infinite;
+             animation-timing-function: ease-out; */
+           
+
+        }
+        
+        .a{
+            position: absolute;
+            bottom:50%;
+            left:30%;
+            /* background-color: antiquewhite; */
+             animation-name: upward; 
+            animation-duration: 1s; 
+            animation-iteration-count: infinite; 
+            animation-timing-function: ease-out;
+        }
+        .b{
+            position: absolute;
+            bottom:50%;
+            left:45%;
+            /* background-color: lightgreen; */
+             animation-name: upward2;
+           animation-duration: 1.5s;
+           animation-iteration-count: infinite; 
+           animation-timing-function: ease-in;
+        }
+        .c{
+            position: absolute;
+            bottom:50%;
+            left:60%; 
+            /* background-color:lightslategray; */
+            animation-name: upward3;
+           animation-duration: 2s;
+           animation-iteration-count: infinite; 
+           animation-timing-function: ease-in-out;
+        }
+        @keyframes upward{
+            0%{
+                top:20px;
+            }
+            50%{
+            top:300px;
+            }
+            100%{
+                  top:500px;
+            }
+        }
+         @keyframes upward2{
+            0%{
+                top:100px;
+            }
+            50%{
+                top:600px;
+            }
+            100%{
+                top:50px;
+            }
+        } 
+        @keyframes upward3{
+            0%{
+                top:50px;
+            }
+            50%{
+                top:600px;
+            }
+            100%{
+                top:50px;
+            }
+        } 
+    </style>
+</head>
+<body>
+   
+ <h1 style="text-align: center; padding:4%;">ANIMATIONS IN CSS</h1>
+    <div class="a">circle1</div>
+    <div class="b">circle2</div>
+    <div class="c">circle3</div>
+
+</body>
+</html> -->
