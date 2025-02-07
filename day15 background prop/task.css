@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.class1,.class2,.class3,.class4,.class5,.class6,.class7,.class8,.class9,.class10,.class11{
+    height: 100vh;
+    width: 100%;
+    border: 2px solid blue;
+    margin: 30px;
+    box-shadow: 3px 3px 30px black;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.class1{
+    background-image: url("../images/css5.jpg");
+}
+.class2{
+    background-image: url("../images/css11.jpg");
+}
+.class3{
+    background-image: url("../images/css8.jpg");
+}
+.class4{
+    background-image: url("../images/css3.jpg");
+}
+.class5{
+    background-image: url("../images/css9.jpg");
+}
+.class6{
+    background-image: url("../images/css2.jpg");
+}
+.class7{
+    background-image: url("../images/css7.jpg");
+}
+.class8{
+    background-image: url("../images/css1.jpg");
+}
+.class9{
+    background-image: url("../images/css4.jpg");
+}
+.class10{
+    background-image: url("../images/css6.jpg");
+}
+.class11{
+    background-image: url("../images/css10.jpg");
+}
